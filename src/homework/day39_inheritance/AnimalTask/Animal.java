@@ -17,7 +17,6 @@ public class Animal {
     }
 
 
-
     public void eat() {
         System.out.println(name + " is eating");
     }
@@ -44,4 +43,10 @@ public class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    public boolean getName() {
+        return true;
+    }
 }
+
+
